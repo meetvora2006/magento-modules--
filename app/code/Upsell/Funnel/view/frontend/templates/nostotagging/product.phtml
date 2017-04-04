@@ -1,0 +1,11 @@
+<?php $_product = $block->getProduct();   ?>
+
+<div class="nosto_product" style="display:none">
+                <span class="url">http://mymagentosetup.com/<?php echo $_product->getRequestPath(); ?></span>
+                <span class="product_id"><?php echo $_product->getSku(); ?></span>
+                <span class="name"><?php echo $_product->getName(); ?></span>
+                <span class="image_url">http://mymagentosetup.com/pub/media/catalog/product<?php echo $_product->getSmallImage(); ?></span>
+                <span class="price"><?php echo $_product->getPrice(); ?></span>
+                
+                           
+              </div>
